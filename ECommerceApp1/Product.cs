@@ -10,10 +10,10 @@ namespace ECommerceApp1
     {
         public int ProductId { get; set; }
         public string ProductName { get; set; }
-        public decimal Price { get; set; }
+        public double Price { get; set; }
         public int Stock { get; set; }
 
-        public Product(int productId, string productName, decimal price, int stock)
+        public Product(int productId, string productName, double price, int stock)
         {
             ProductId = productId;
             ProductName = productName;
